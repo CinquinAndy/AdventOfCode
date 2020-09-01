@@ -25,11 +25,45 @@ monInput(2);
 
 <?php
 // faire les traitements dans partie ! à vous de vous débrouiller ;)
-$tableauChaine = $_SESSION['tableauChaine'];
-$resultat=0;
-
-
-?>
+// Solution étape 1 :
+//$tableauChaine = $_SESSION['tableauChaine'];
+//$resultat=0;
+//$compteur=0;
+//foreach ($tableauChaine as $ligne){
+//    $tableauChiffre[$compteur]=explode('x',$ligne);
+//    $compteur++;
+//}
+//
+//foreach ($tableauChiffre as $ligne){
+//    $resultatLxW=(2*(int)$ligne[0]*(int)$ligne[1]);
+//    $resultatLxH=(2*(int)$ligne[0]*(int)$ligne[2]);
+//    $resultatWxH=(2*(int)$ligne[1]*(int)$ligne[2]);
+//    $resultat+=$resultatLxW+$resultatLxH+$resultatWxH;
+//    if ($resultatLxW<=$resultatLxH&&$resultatLxW<=$resultatWxH){
+//        $resultat+=$resultatLxW/2;
+//    } else if ($resultatLxH<=$resultatLxW&&$resultatLxH<=$resultatWxH){
+//        $resultat+=(int)$resultatLxH/2;
+//    } else {
+//        $resultat+=(int)$resultatWxH/2;
+//    }
+//}
+//
+// Solution etape 2 :
+//$tableauChaine = $_SESSION['tableauChaine'];
+//$resultat=0;
+//$compteur=0;
+//foreach ($tableauChaine as $ligne){
+//    $tableauChiffre[$compteur]=explode('x',$ligne);
+//    $compteur++;
+//}
+//
+//foreach ($tableauChiffre as $ligne){
+//    sort($ligne,SORT_NUMERIC);
+//    $resultatL2_W2=((2*(int)$ligne[0])+(2*(int)$ligne[1]));
+//    $resultatLxWxH=((int)$ligne[0]*(int)$ligne[1]*(int)$ligne[2]);
+//    $resultat+=$resultatL2_W2+$resultatLxWxH;
+//}
+//?>
 
 
 <?php // affichage de votre résultat ?>

@@ -29,16 +29,36 @@ $tableauChaine = $_SESSION['tableauChaine'];
 
 // premier jour 2015 :
 // si on obtient '(' , on passe à l'étage supérieur, si on a ')' , on passe à l'inférieur.
-$etage = 0;
-$tabChar = str_split($tableauChaine[0]);
-
-foreach ($tabChar as $caractereActuel) {
-    if ($caractereActuel === '(') {
-        $etage++;
-    } elseif ($caractereActuel === ')') {
-        $etage--;
-    }
-}
+// Solution Etape 1 :
+//$etage = 0;
+//$tabChar = str_split($tableauChaine[0]);
+//
+//foreach ($tabChar as $caractereActuel) {
+//    if ($caractereActuel === '(') {
+//        $etage++;
+//    } elseif ($caractereActuel === ')') {
+//        $etage--;
+//    }
+//}
+// $resultat = $etage;
+//
+// Solution Etape 2 :
+//$etage = 0;
+//$tabChar = str_split($tableauChaine[0]);
+//$compteur = 0;
+//$resultat = 0;
+//
+//foreach ($tabChar as $caractereActuel) {
+//    if ($caractereActuel === '(') {
+//        $etage++;
+//    } elseif ($caractereActuel === ')') {
+//        $etage--;
+//    }
+//    $compteur++;
+//    if ($etage<0 && $resultat===0){
+//        $resultat=$compteur;
+//    }
+//}
 
 ?>
 
@@ -49,7 +69,7 @@ foreach ($tabChar as $caractereActuel) {
         Résultat :
     </div>
     <div class="card-body">
-        <p class="card-text"><?= $etage ?></p>
+        <p class="card-text"><?= $resultat ?></p>
     </div>
 </div>
 
