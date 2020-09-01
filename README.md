@@ -77,7 +77,7 @@ n'oubliez pas de cocher les cases de créations de bases de données en même te
 <br> Pour ce faire allez dans file->settings->build, excecution, deployement -> deployement
 <br> Puis ajouter votre liens localhost vers la racine du projet 
 <br> Comme ceci : 
-<br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_configDeployement" align="center" height="500" />
+<br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_configDeployement.png" align="center" height="500" />
 <br>
 
 ## Liens pratiques
