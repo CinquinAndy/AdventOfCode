@@ -16,7 +16,7 @@ Une interface pour s'entrainer en Algo sur Advent of code ?
 
 ## Installation
 Pour commencer télécharger le projet,
-<br> Ensuite, prenez le dossier du projet, puis glissez le dans votre répertoire Xammp / Wamp, 
+<br> Ensuite, prenez le dossier du projet, puis glissez le dans votre répertoire Xampp / Wamp, 
 <br> Xampp : C:\xampp\htdocs 
 <br> Wamp : C:\wamp64\www 
 <br> Mamp : C:\MAMP\htdocs 
