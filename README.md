@@ -10,8 +10,8 @@ Une interface pour s'entrainer en Algo sur Advent of code ?
 ## Table of content
 
 - [Installation](#Installation)
-- [Liens Pratiques](#Liens Pratiques)
-- [Mes projets perso](#Mes projets perso)
+- [Liens Pratiques](#liens-pratiques)
+- [Mes projets perso](#mes-projets-perso)
 
 
 ## Installation
@@ -80,7 +80,7 @@ https://www.php.net/manual/fr/
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 
-## Mes projets perso :red_heart:
+## Mes projets perso
 https://www.andy-cinquin.fr/
 <br>
 https://julie-sommaro.com/
