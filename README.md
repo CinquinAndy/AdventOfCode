@@ -63,7 +63,7 @@ n'oubliez pas de cocher les cases de créations de bases de données en même te
 <br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_database3.png" align="center" height="500" />
 <br> Téléchargez le driver proposé. 
 <br>
-<br>
+<br> 
 <br> Enfin, dernier point important ! On va creer le fichier 'config.php', à la racine du projet
 <br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_configPhp.png" align="center" height="500" />
 <br> mettez bien votre mot de passe créer pour votre base de donnée, le bon nom d'utilisateur (adventofcode) normalement... etc,
@@ -71,6 +71,14 @@ n'oubliez pas de cocher les cases de créations de bases de données en même te
 <br>
 <br> Appliquez, et normalement tout est bon ! 
 <br> Amusez vous bien ! 
+<br>
+<br> Edit : 
+<br> Vous devez également configurer le déploiement dans PHPStorm
+<br> Pour ce faire allez dans file->settings->build, excecution, deployement -> deployement
+<br> Puis ajouter votre liens localhost vers la racine du projet 
+<br> Comme ceci : 
+<br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_configDeployement" align="center" height="500" />
+<br>
 
 ## Liens pratiques
 https://adventofcode.com/2019/events
