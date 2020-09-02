@@ -79,6 +79,11 @@ n'oubliez pas de cocher les cases de créations de bases de données en même te
 <br> Comme ceci : 
 <br> <img src="https://www.andy-cinquin.fr/images/projetAdventOfCode_configDeployement.png" align="center" height="500" />
 <br>
+<br> ps : si une erreur se manifeste après avoir fait toutes les configurations, c'est 'normal', c'est qu'il n'y a aucune valeur
+<br> dans les variables de sessions pour le moment, ajouté dans ' l'input puzzle ' votre chaine fournis par advent of code !
+<br> et l'erreur devrais disparaitre !
+<br>
+<br> Amusez vous bien !
 
 ## Liens pratiques
 https://adventofcode.com/2019/events

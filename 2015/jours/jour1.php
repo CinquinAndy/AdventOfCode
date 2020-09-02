@@ -30,15 +30,15 @@ $tableauChaine = $_SESSION['tableauChaine'];
 // premier jour 2015 :
 // si on obtient '(' , on passe à l'étage supérieur, si on a ')' , on passe à l'inférieur.
 $etage = 0;
-$tabChar = str_split($tableauChaine[0]);
-
-foreach ($tabChar as $caractereActuel) {
-    if ($caractereActuel === '(') {
-        $etage++;
-    } elseif ($caractereActuel === ')') {
-        $etage--;
-    }
-}
+//$tabChar = str_split($tableauChaine[0]);
+//
+//foreach ($tabChar as $caractereActuel) {
+//    if ($caractereActuel === '(') {
+//        $etage++;
+//    } elseif ($caractereActuel === ')') {
+//        $etage--;
+//    }
+//}
 
 ?>
 
