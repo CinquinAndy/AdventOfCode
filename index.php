@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['tableauChaine']="10";
 require "composants/header.php";
 require "config.php";
 require "composants/footer.php";
