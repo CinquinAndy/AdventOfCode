@@ -25,10 +25,31 @@ monInput(2);
 
 <?php
 // faire les traitements dans partie ! à vous de vous débrouiller ;)
+// Solution jour 1
+//$tableauChaine = $_SESSION['tableauChaine'];
+//$trouver=0;
+//$chiffre=0;
+//while($trouver===0){
+//    $valeurTest = md5($tableauChaine[0].(string)$chiffre);
+//    if(strpos($valeurTest,"00000")===0){
+//        $trouver=1;
+//        $resultat=$chiffre;
+//    }
+//    $chiffre++;
+//}
+
+// Solution jour 2
 $tableauChaine = $_SESSION['tableauChaine'];
-$resultat=0;
-
-
+$trouver=0;
+$chiffre=0;
+while($trouver===0){
+    $valeurTest = md5($tableauChaine[0].(string)$chiffre);
+    if(strpos($valeurTest,"000000")===0){
+        $trouver=1;
+        $resultat=$chiffre;
+    }
+    $chiffre++;
+}
 ?>
 
 

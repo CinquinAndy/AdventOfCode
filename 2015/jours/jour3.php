@@ -44,7 +44,7 @@ $resultat=0;
 //        $positionX--;
 //    }
 //
-//    (in_array($positionX.'|'.$positionY,$tabPositionPasser)) ? $no="nothing" :  $tabPositionPasser[]=(string)$positionX.'|'.(string)$positionY ;
+//    (in_array($positionX.'|'.$positionY,$tabPositionPasser)) ? : $tabPositionPasser[]=(string)$positionX.'|'.(string)$positionY ;
 //}
 //$resultat=count($tabPositionPasser);
 
